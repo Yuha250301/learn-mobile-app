@@ -34,7 +34,7 @@ public class MyRecyclerViewAdapter extends RecyclerView.Adapter<MyRecyclerViewAd
     @Override
     public void onBindViewHolder( @NonNull ViewHolder holder, int position) {
         Dog dog = mData.get(position);
-        holder.imageView.setImageResource(dog.getPathid());
+//        holder.imageView.setImageResource(dog.getDes());
         holder.name.setText(dog.getName());
         holder.price.setText("$" + dog.getPrice());
     }

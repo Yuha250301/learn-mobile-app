@@ -2,12 +2,12 @@ package com.example.myapplication;
 
 public class Dog {
     private String name;
-    private int pathid;
+    private String des;
     private String price;
 
-    public Dog(String name, int pathid, String price) {
+    public Dog(String name, String pathid, String price) {
         this.name = name;
-        this.pathid = pathid;
+        this.des = pathid;
         this.price = price;
     }
 
@@ -19,12 +19,12 @@ public class Dog {
         this.name = name;
     }
 
-    public int getPathid() {
-        return pathid;
+    public String getDes() {
+        return des;
     }
 
-    public void setPathid(int pathid) {
-        this.pathid = pathid;
+    public void setPathid(String des) {
+        this.des = des;
     }
 
     public String getPrice() {
